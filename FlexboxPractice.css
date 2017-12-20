@@ -1,0 +1,54 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.root{
+    display: flex;
+    flex-direction: column;
+   
+    height: 100%;
+    margin: 20px;
+    align-items: center;
+}
+.item{
+    display: flex;
+    flex-flow: row wrap;
+
+    margin: 5px;
+    justify-content: flex-start;
+    align-items: center;
+ 
+}
+
+.detail{
+    height: 100px;
+   
+    margin: 5px;
+   
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+
+    margin: 0px 5px;
+ }
+
+figure img{
+    width: 50px;
+    height: 60px;
+    margin: 5px auto;
+}
+.user-detail{
+    display: flex;
+    align-items: baseline;
+}
+
+div p{
+    margin: 5px;
+    padding: 5px;
+}
+
+.cat{
+    font-style: italic
+}
